@@ -1,0 +1,199 @@
+body {
+    width:800px;
+    margin: auto;
+    background-color:#333333;
+}
+
+h1, h2, h3, h4, p {
+    color: #FFFF00;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+a {
+    color: #FFFF00;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    text-decoration: none;
+    left: calc(50% - 170px);
+    position: absolute;
+}
+#startbutton {
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin-left:-125px;
+    margin-top:auto;
+    width:256px;
+    height:70px;
+    padding:16px;
+    border-radius:16px;
+    border:2px solid black;
+    background:#333333;
+    color:#FFFF00;
+    text-decoration:none;
+    display:block;
+    font-size:32px;
+    line-height:32px;
+    font-family:arial;
+    font-weight:bold;
+    text-align:center;
+}
+
+ #startbutton:hover {
+     background: #FF0000;
+     color: #FFFFFF;
+ }
+
+.spaceship {
+    width : 128px;
+    height: 128px;
+    position: absolute;
+    overflow: hidden;
+}
+
+.xwing {
+    position: absolute;
+    background-image: url(../img/x-wingSmallVersion.png);
+    width: 100px;
+    height: 108px;
+    margin: auto;
+    top: calc(50% - 52px);
+    left: calc(50% - 52px);
+}
+
+.playarea {
+    width: 450px;
+    height: 550px;
+    background-color: #000000;
+    background-image: url(../img/background2.png);
+    position:relative;
+    overflow: hidden;
+    border:10px solid #252525;
+    margin:40px auto 0;
+}
+
+.xwingExplode {
+    position: absolute;
+    background-image: url(../img/xwing_blast.png);
+    background-repeat: no-repeat;
+}
+
+.laser {
+    background: #FF0000;
+    width: 2px;
+    height: 20px;
+    position: absolute;
+}
+.enemyDiv {
+    width: 80px;
+    height: 60px;
+    position: absolute;
+}
+
+.enemy {
+    background-image: url(../img/tieSmallVersion.png);
+    width: 80px;
+    height: 60px;
+    position: absolute;
+    left: calc(50% - 40px);
+    top: calc(50% - 30px);
+}
+
+.enemyExplode {
+    position: absolute;
+    background-image: url(../img/enemy_blast.png);
+    background-repeat: no-repeat;
+}
+
+.gameover {
+   font-family: Arial, Helvetica, sans-serif;
+   text-align:center;
+   color:#FFFF00;
+   margin-top: 300px;
+}
+
+.scorediv {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.scorelabel, .liveslabel, .stagelabel {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFFF00;
+    font-weight:lighter;
+    font-size: 15px;
+}
+
+.livesdiv {
+    position: absolute;
+    top: 40px;
+    left: 10px;
+}
+
+.stagesdiv {
+    position: absolute;
+    top: 10px;
+    left: 390px;
+}
+
+.left {
+    float: left;
+    position: absolute;
+}
+
+.photo {
+    width: 200px;
+    height: 200px;
+    margin-top: -570px;
+    margin-left: -90px;
+    text-align: center;
+}
+
+.competenceslabel {
+    width: 150px;
+    margin-top: -570px;
+    margin-left: 700px;
+}
+
+.competencestext {
+    width: 160px;
+    margin-top: -540px;
+    margin-left: 700px;
+    color: #FFFF00;
+    text-align:center;
+}
+
+.right {
+    float:right;
+    position: absolute;
+}
+
+.experienceslabel {
+    width:150px;
+    margin-top: -330px;
+    margin-left: -70px;
+}
+
+.experiencestext {
+    width: 160px;
+    margin-top: -300px;
+    margin-left: -70px;
+    color: #FFFF00;
+    text-align:center;
+}
+
+.formationlabel {
+    width: 150px;
+    margin-top: -330px;
+    margin-left: 700px;
+}
+
+.formationtext {
+    width: 160px;
+    margin-top: -300px;
+    margin-left: 700px;
+    color: #FFFF00;
+    text-align: center;
+}
