@@ -5,6 +5,8 @@ window.onload = function() {
         var start = document.getElementById('startbutton');
             start.style.display = 'none';
 
+            document.body.style.overflowY = "hidden";
+
             var playArea = document.getElementById('playArea');
 
             // Mise en place des touches de déplacement et de tir.
