@@ -531,7 +531,7 @@ window.onload = function() {
                     document.body.appendChild(formationText);
                     formationText.classList.add('right');
                     formationText.classList.add('formationtext');
-                    formationText.innerHTML = 'IFOCOP Paris XI Formation professionnelle Développeur Web full stack JavaScript. Titre inscrit au RNCP.<br/>Novembre 2016 à Aujourd’hui.<br/>I.U.T. Paris XIII DUT informatique. Octobre 2011 à Octobre 2012.<br/>CIFAP Montreuil Contrat de qualification journaliste Multimédia.';
+                    formationText.innerHTML = 'IFOCOP Paris XI Formation professionnelle Développeur Web full stack JavaScript. Titre inscrit au RNCP.<br/>Novembre 2016 à Septembre 2017.<br/>I.U.T. Paris XIII DUT informatique. Octobre 2011 à Octobre 2012.<br/>CIFAP Montreuil Contrat de qualification journaliste Multimédia.';
                 }
 
             }
