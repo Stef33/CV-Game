@@ -519,7 +519,7 @@ window.onload = function() {
                     document.body.appendChild(experiencesText);
                     experiencesText.classList.add('experiencestext');
                     experiencesText.classList.add('left');
-                    experiencesText.innerHTML = 'Développeur web full stack php - S4M Paris. De Janvier 2013 à aujourd’hui.<br/>Différentes missions Education Nationale - Argenteuil. De Février 2007 à Octobre 2010<br/>Journaliste Réalisateur - Paris. De Septembre 1998 à Juillet 2006';
+                    experiencesText.innerHTML = 'Développeur web javascript full stack - My Rem Software Saint-Gratien. Développeur web full stack php - S4M Paris. De Janvier 2013 à Juillet 2017.<br/>Différentes missions Education Nationale - Argenteuil. De Février 2007 à Octobre 2010<br/>Journaliste Réalisateur - Paris. De Septembre 1998 à Juillet 2006';
                 }
                 if (score >= 15000) {
                     enemyTotal = 5;
