@@ -519,7 +519,7 @@ window.onload = function() {
                     document.body.appendChild(experiencesText);
                     experiencesText.classList.add('experiencestext');
                     experiencesText.classList.add('left');
-                    experiencesText.innerHTML = 'Développeur web Front End - Infopro Digital Antony. De Décembre 2020 à Janvier 2021. Développeur web Front End - ACCOR Issy-les-Moulineaux. De Janvier 2020 à Mars 2020. Développeur web Front End - Serious Factory Suresnes. D\' Octobre 2018 à Novembre 2018. Développeur web javascript full stack - My Rem Software Saint-Gratien. De Juillet 2017 à Janvier 2018. Développeur web full stack php - S4M Paris. De Janvier 2013 à Juillet 2017.';
+                    experiencesText.innerHTML = 'Développeur web Front End - Infopro Digital Antony.<br> De Décembre 2020 à Janvier 2021.<br><br> Développeur web Front End - ACCOR Issy-les-Moulineaux.<br> De Janvier 2020 à Mars 2020.<br><br> Développeur web Front End - Serious Factory Suresnes.<br> D\' Octobre 2018 à Novembre 2018.<br><br> Développeur web javascript full stack - My Rem Software Saint-Gratien.<br> De Juillet 2017 à Janvier 2018.<br><br> Développeur web full stack php - S4M Paris.<br> De Janvier 2013 à Juillet 2017.';
                 }
                 if (score >= 15000) {
                     enemyTotal = 5;
